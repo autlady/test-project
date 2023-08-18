@@ -55,7 +55,6 @@ img {
 
 @media (max-width: 829px) {
     .sidebar {
-        /* display: none; */
         position: fixed;
         margin-left: 0!important;
         top: 0;
@@ -150,7 +149,6 @@ a.card-link:hover {
 .card__badge--credit {
     background-color: #11BE75;
     color: #fff;
-
 }
 
 .card__content {
@@ -226,9 +224,7 @@ a.card-link:hover {
 }
 
 .btn-more img {
-    /* display: inline-block; */
     margin-right: 10px;
-    /* vertical-align: bottom; */
 }
 
 /* sidebar */
@@ -268,14 +264,12 @@ a.card-link:hover {
     transform: rotate(180deg);
 }
 
-.widget__body {}
-
 .widget__body--hidden {
     display: none;
 }
+
 /* location buttons group */
 
-.location {}
 
 .location__row {
     display: flex;
@@ -480,8 +474,6 @@ a.card-link:hover {
 
 /* toggle */
 
-
-
 .toggle {
     cursor: pointer;
 }
@@ -557,10 +549,7 @@ a.card-link:hover {
 }
 
 .form-btn img {
-    /* display: inline-block; */
     margin-right: 6px;
-    /* vertical-align: middle;
-    margin-top: -2px; */
 }
 
 .form-btn:hover {
